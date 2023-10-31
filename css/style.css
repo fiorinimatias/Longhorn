@@ -32,11 +32,11 @@ img {
 
 @font-face {
   font-family: "remington";
-  src: url(./fonts/VintageRemington.ttf);
+  src: url(../fonts/VintageRemington.ttf);
 }
 @font-face {
   font-family: "whisholder";
-  src: url(./fonts/Whisholder.ttf);
+  src: url(../fonts/Whisholder.ttf);
 }
 .img_logo_header {
   width: 90px;
