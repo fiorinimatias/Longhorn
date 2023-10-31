@@ -72,9 +72,10 @@ img {
   text-decoration: none;
   color: #dddfbb;
   transition: 0.5s;
-  font-family: "whisholder";
-  font-size: 2rem;
+  font-family: "remington";
+  font-size: 1.7rem;
   letter-spacing: 0.08rem;
+  text-transform: uppercase;
 }
 .navigation_header a:hover {
   color: #788147;
@@ -128,7 +129,7 @@ img {
   justify-content: space-around;
   align-items: flex-start;
   background-color: #dddfbb;
-  font-family: "whisholder";
+  font-family: "remington";
 }
 
 .main__footer ul {
@@ -243,6 +244,9 @@ footer a:hover {
   }
   .main__footer ul {
     text-align: center;
+  }
+  .contact__footer {
+    justify-items: center;
   }
   .contact__footer li {
     text-align: center;

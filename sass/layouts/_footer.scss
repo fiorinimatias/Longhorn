@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: flex-start;
   background-color: $color-secundary;
-  font-family: "whisholder";
+  font-family: "remington";
   
 }
 
@@ -127,6 +127,7 @@ footer a:hover {
         }
   }
   .contact__footer {
+    justify-items: center;
     li {
         text-align: center;
     }
