@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.footer__menu/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.logo__footer {
+    width: 70px;
+}
+
+.main__footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: $color-secundary;
+  font-family: "whisholder";
+  
+}
+
+.main__footer ul {
+  list-style: none;
+  font-family: "montserrat";
+}
+
+.main__footer h1 {
+  font-size: 22px;
+  line-height: 117%;
+  color: $color-principal;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.main__footer h2 {
+  color: $color-principal;
+  font-weight: 500;
+}
+
+.main__footer ul li a {
+  color: $color-principal;
+  text-decoration:none;
+  font-family: "montserrat";
+}
+.main__footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+  background-color: $color-principal;
+  border-top: 1px solid $color-secundary;
+  font-size: 1rem;
+  padding: 7px 7px;
+  color: $color-secundary;
+  text-align: center;
+  font-family: "montserrat";
+}
+
+footer a {
+  text-decoration: none;
+  color: $color-secundary;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.contact__footer {
+  margin-top: 20px;
+}
+
+.contact__footer li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact__footer li a {
+  text-decoration:none;
+  color: $color-principal;
+  font-family: "montserrat";
+
+}
+.contact__footer li a:hover {
+  text-decoration:underline;
+}
+.contact__footer .fa {
+  color: $color-secundary;
+  margin-right: 10px;
+}
+
+.footer-social{
+  padding:20px 0;
+}
+
+.footer-social .footer__social-box a{
+  padding:0 10px;
+  text-decoration:none;
+  color: $color-secundary;
+  font-size:22px;
+}
+
+.footer__menu ul li{
+  padding:5px 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! Tablet */
+/* -------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+  .main__footer {
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    .footer__social{
+      padding:20px 0;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! Smartphone */
+/* -------------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+    .logo__footer {
+        justify-items:center ;
+    }
+  .main__footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+        ul {
+            text-align: center;
+        }
+  }
+  .contact__footer {
+    li {
+        text-align: center;
+    }
+  }
+  .footer-social{
+    padding:0px 0;
+  }
+  .footer__menu{
+    padding:20px 0;
+  }
+
+}

@@ -1,0 +1,43 @@
+// paletas de colores 
+
+$color-principal: #30341c ;
+$color-secundary: #dddfbb;
+$color-third: #788147;
+$color-text: #dddfbb;
+$bg-principal: #191b10;
+$bg-secundary: #404622;
+
+// tamaño fuentes
+
+$font-principal: 1.2rem;
+$font-secondary: .5rem;
+$font-title: 2rem;
+$font-text: 1.5rem;
+
+// espaciados
+
+$spacing-s: 0.5rem;
+$spacing-m: 1rem;
+$spacing-l: 1.5rem;
+$spacing-xl: 2rem;
+
+// fuentes
+
+$bebas: 'Bebas Neue', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+// media-queries
+
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024px;
+
+:root{
+    --color-white: #dddfbb;
+    --color-dark1: #30341c;
+    --color-dark2: #404622;
+    --color-dark3: #788147;
+    --color-dark4: #191b10;
+    --color-dark5: #30341c;
+    --color-purple: #dddfbb;
+}

@@ -1,0 +1,76 @@
+
+.img_logo_header{
+    width: 90px;
+}
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header{
+    background-color: $color-principal;
+    justify-content: space-between;
+    padding: 0 2%;
+    height: 6em;
+}
+.navigation_header{
+    gap: 1em;
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: center;
+    height: 100vh;
+    transition: .4s;
+}
+.navigation_header {
+    a { 
+        text-decoration: none;
+        color: $color-secundary;
+        transition: .5s;
+        font-family: "whisholder";
+        font-size: 2rem;
+        letter-spacing: .08rem;
+    
+        &:hover {
+            color: $color-third;
+        }
+    }
+}
+
+.active{
+    background: $bg-principal;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: $color-secundary;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: $color-principal;
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
