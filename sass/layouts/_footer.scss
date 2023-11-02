@@ -25,6 +25,8 @@
   color: $color-principal;
   margin-bottom: 10px;
   font-weight: 500;
+  text-align: center;
+  align-items: center;
 }
 
 .main__footer h2 {
@@ -71,7 +73,6 @@ footer a:hover {
   text-decoration:none;
   color: $color-principal;
   font-family: "montserrat";
-
 }
 .contact__footer li a:hover {
   text-decoration:underline;
@@ -138,5 +139,4 @@ footer a:hover {
   .footer__menu{
     padding:20px 0;
   }
-
 }
