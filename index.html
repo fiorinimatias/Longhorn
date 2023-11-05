@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cerveza Longhorn | Inicio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
     <link rel="icon" href="./images/favicon.png" type="image/png">
 
@@ -26,12 +27,12 @@
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
             </button>
-            <a href="#" class="active">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">La Fabrica</a>
-            <a href="#">Comprar</a>
-            <a href="#">Estilos</a>
-            <a href="#">Prensa</a>
+            <a href="./index.html" class="active">Inicio</a>
+            <a href="./pages/nosotros.html">Nosotros</a>
+            <a href="./pages/fabrica.html">La Fabrica</a>
+            <a href="./pages/comprar.html">Comprar</a>
+            <a href="./pages/estilos.html">Estilos</a>
+            <a href="./pages/prensa.html">Prensa</a>
         </div>
     </div>
 
@@ -40,7 +41,14 @@
     </div>
     <div class="banner">
       <img class="banner-movil" src="./images/banner-movil.png" alt="">
-  </div>
+    </div>
+
+    <div class="banner-desktop">
+        <img src="./images/background.png" alt="">
+    </div>
+    <div class="banner">
+      <img class="banner-movil" src="./images/background.png" alt="">
+    </div>
 
   <div class="container">
     <div class="card-container">
@@ -63,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="card-container">
+    <div class="card-container-movil">
         <div class="image-container">
             <img src="./images/ipafondo.png" alt="Card Image" />
         </div>
@@ -81,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="card-container">
+    <div class="card-container-movil">
         <div class="image-container">
             <img src="./images/goldenfondo.png" alt="Card Image" />
         </div>
@@ -109,48 +117,27 @@
 
 
 
-    <section id="footer">
-        <div class="main__footer">
-          <div class="logo__footer">
-            <img src="./images/logo2.png" alt="">
-            <div class="contact__footer">
-              <h1>Contactanos</h1>
-              <li>
-                <div class="fa fa-phone"></div><a href="tel:+391234567890">+543515943584</a></li>
-              <li>
-                <div class="fa fa-envelope"></div><a href="mailto:yourmail@gmail.com">longhornbeer@gmail.com</a></li>
-              </li>
-          </div>
-        </div>
-        <div class="footer__menu">
-          <h1>Longhorn</h1>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">La Fabrica</a></li>
-            <li><a href="#">Comprar</a></li>
-            <li><a href="#">Estilos</a></li>
-            <li><a href="#">Prensa</a></li>
-          </ul>
-        </div>
-        <div class="footer__social">
-          <h1>Social Media</h1>
-          <div class="footer-social">
-            <div class="footer__social-box">
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-youtube-play"></a>
-            </div>
-          </div>
-        </div>
-        </div>
-      
-        <footer>
-          <p>Creado Por <span><a href="https://keeplogo.netlify.app/" target="_blank">Matias Fiorini</a></span> | &copy; 2023 All rights reserved.</p>
-        </footer>
-      
-      </section>
+<footer>
+    <p class="text">SUSCRIBITE Y ACCEDE A INCREIBLES PROMOS!</p>
+    <form>
+        <input type="email" required>
+        <input type="submit" value="Suscribite">
+    </form>
+    <ul class="list-footer">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Fabrica</a></li>
+        <li><a href="#">Comprar</a></li>
+        <li><a href="#">Estilos</a></li>
+        <li><a href="#">Prensa</a></li>
+    </ul>
+    <div class="social-media">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p class="copyrights">&copy; 2023 Matias Fiorini</p>
+</footer>
 
 
     
