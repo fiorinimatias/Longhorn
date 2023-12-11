@@ -1,6 +1,7 @@
 :root {
   --mycolor: rgb(36, 84, 63);
 }
+
 footer {
   width: 100%;
   bottom: 0;
@@ -12,12 +13,14 @@ footer {
   color: $color-secundary;
   padding: 20px;
 }
+
 .text {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 30px auto;
 }
-footer input[type='email']{
+
+footer input[type='email'] {
   width: calc(90vw - 40vw);
   font-size: 25px;
   padding: 10px;
@@ -26,7 +29,8 @@ footer input[type='email']{
   border: none;
   color: $color-principal;
 }
-footer input[type='submit']{
+
+footer input[type='submit'] {
   border: none;
   outline: none;
   border-radius: 0 30px 30px 0;
@@ -36,12 +40,17 @@ footer input[type='submit']{
   font-size: 25px;
   cursor: pointer;
 }
-footer input:hover[type='submit'] {background: $color-secundary;}
+
+footer input:hover[type='submit'] {
+  background: $color-secundary;
+}
+
 .list-footer {
   margin: 30px auto;
   display: flex;
   list-style-type: none;
 }
+
 .list-footer li a {
   text-decoration: none;
   color: #fff;
@@ -49,57 +58,69 @@ footer input:hover[type='submit'] {background: $color-secundary;}
   font-weight: bold;
   padding: 20px;
 }
-.list-footer li a:hover{color: var(--mycolor);}
+
+.list-footer li a:hover {
+  color: var(--mycolor);
+}
 
 .social-media i {
   padding: 10px;
   font-size: 25px;
   color: #fff;
 }
-.social-media i:hover{
+
+.social-media i:hover {
   color: var(--mycolor);
 }
 
-@media(max-width:810px){
-  .text ,  footer input[type='email'] ,
+@media(max-width:810px) {
+
+  .text,
+  footer input[type='email'],
   footer input[type='submit'] {
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .list-footer li a {
-      padding: 15px;
-      font-size: 15px;
+    padding: 15px;
+    font-size: 15px;
   }
+
   .social-media i {
-      padding: 10px;
+    padding: 10px;
   }
 }
-@media(max-width:610px){
-  .text ,  footer input[type='email'] ,
+
+@media(max-width:610px) {
+
+  .text,
+  footer input[type='email'],
   footer input[type='submit'] {
-      font-size: 14px;
+    font-size: 14px;
   }
+
   .list-footer li a {
-      padding: 10px;
-      font-size: 12px;
+    padding: 10px;
+    font-size: 12px;
   }
+
   .social-media i {
-     font-size: 15px;
+    font-size: 15px;
   }
 }
-@media(max-width:470px){
+
+@media(max-width:470px) {
   .text {
-      font-size: 12px;
+    font-size: 12px;
   }
+
   .list-footer li a {
-      padding: 5px;
+    padding: 5px;
   }
 }
-@media(max-width:330px){
+
+@media(max-width:330px) {
   .text {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
-
-
-
-
