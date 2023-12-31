@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
-
 :root {
   --color-white: #dddfbb;
   --color-dark1: #30341c;
@@ -35,12 +34,10 @@ img {
   font-family: "remington";
   src: url(../fonts/VintageRemington.ttf);
 }
-
 @font-face {
   font-family: "whisholder";
   src: url(../fonts/Whisholder.ttf);
 }
-
 .img_logo_header {
   width: 90px;
 }
@@ -80,7 +77,6 @@ img {
   letter-spacing: 0.08rem;
   text-transform: uppercase;
 }
-
 .navigation_header a:hover {
   color: #788147;
 }
@@ -111,22 +107,18 @@ img {
     animation-duration: 1s;
     margin-left: -100vw;
   }
-
   .btn_icon_header {
     display: block;
   }
 }
-
 @keyframes showSidebar {
   from {
     margin-left: -100vw;
   }
-
   to {
     margin-left: -10vw;
   }
 }
-
 :root {
   --mycolor: rgb(36, 84, 63);
 }
@@ -203,57 +195,76 @@ footer input:hover[type=submit] {
 }
 
 @media (max-width: 810px) {
-
   .text,
   footer input[type=email],
   footer input[type=submit] {
     font-size: 20px;
   }
-
   .list-footer li a {
     padding: 15px;
     font-size: 15px;
   }
-
   .social-media i {
     padding: 10px;
   }
 }
-
 @media (max-width: 610px) {
-
   .text,
   footer input[type=email],
   footer input[type=submit] {
     font-size: 14px;
   }
-
   .list-footer li a {
     padding: 10px;
     font-size: 12px;
   }
-
   .social-media i {
     font-size: 15px;
   }
 }
-
 @media (max-width: 470px) {
   .text {
     font-size: 12px;
   }
-
   .list-footer li a {
     padding: 5px;
   }
 }
-
 @media (max-width: 330px) {
   .text {
     font-size: 10px;
   }
 }
+.btn-wsp {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  line-height: 46px;
+  bottom: 25px;
+  margin-left: 2rem;
+  background: #075E54;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.75);
+  z-index: 100;
+  transition: all 300ms ease;
+}
 
+.btn-wsp:hover {
+  background: #dddfbb;
+  color: #075E54;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+}
 .toTopButton {
   color: #30341c;
   background-color: #dddfbb;
@@ -277,18 +288,15 @@ footer input:hover[type=submit] {
   .banner-movil {
     display: none;
   }
-
   .card-container-movil {
     margin-top: 15rem;
   }
 }
-
 @media (min-width: 480px) {
   .banner-desktop {
     display: none;
   }
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -304,8 +312,7 @@ body {
   margin-bottom: 15rem;
 }
 
-.card-container,
-.card-container-movil {
+.card-container, .card-container-movil {
   color: white;
   width: 350px;
   height: 490px;
@@ -391,6 +398,11 @@ body {
   padding: 6px 15px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.btn {
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
